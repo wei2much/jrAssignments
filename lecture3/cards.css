@@ -18,6 +18,9 @@ img.card__head {
 height: 32px;
     flex: 1 1 auto;
 }
+.card__head .menu {
+    color: cadetblue;
+}
 
 p.card__head{
     flex: 1 1 auto;
@@ -32,9 +35,18 @@ p.card__head{
 
 .card__main{
     display: block;
+    line-height: 1.2;
+}
+p.card__main{
+    padding: 5px;
 }
 .card__footer{
     position: relative;
+    color: cadetblue;
+}
+div.card__footer{
+padding: 5px;
+    border-top: lightgrey solid 1px;
 }
 #card__seeMore{
     position: absolute;
